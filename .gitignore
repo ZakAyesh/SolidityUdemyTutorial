@@ -3,3 +3,6 @@ node_modules
 
 # Ignore Solidity builds
 build
+
+# Ignore dist folders
+.next/dist
