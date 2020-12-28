@@ -2,9 +2,8 @@ const HDWalletProvider = require("truffle-hdwallet-provider");
 const Web3 = require("web3");
 const compiledFactory = require("./build/CampaignFactory.json");
 
-//Insert mmemonic here
-//Mnemonic removed for security
-const mnemonic = "";
+const mnemonic =
+  "tiny nasty there biology home gate endorse fringe skin patient nurse common";
 
 const provider = new HDWalletProvider(
   mnemonic,
